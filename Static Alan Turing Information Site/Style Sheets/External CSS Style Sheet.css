@@ -1,0 +1,164 @@
+body {
+    background-color: #323437;
+    overflow-x: hidden;
+
+}
+
+.horizontalLineTop {
+    position: relative;
+    border-top: 2px solid #d1d0c5;
+    top: 85px;
+}
+
+.horizontalLineBottom {
+    position: relative;
+    border-bottom: 2px solid #d1d0c5;
+    bottom: 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #d1d0c5;
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    text-align: center;
+    top: 20px;
+    width: auto;
+    height: auto;
+    
+}
+
+header, .imageDescription {
+    position: relative;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.imageContainer {
+    position: relative;
+    text-align: center;
+}
+
+li {
+    margin: auto;
+    padding: auto;
+    height: auto;
+    line-height: 50px;
+}
+
+ol > li::marker {
+    font-weight: bold;
+    text-decoration: underline 2px;
+    color: #e2b714;
+}
+
+.alanPicture {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 25%;
+    width: 25%;
+    border: 5px double silver;
+    visibility: visible;
+    
+}
+
+.imageDescription {
+    position: relative;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.controls {
+    color: #d1d0c5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    inline-size: 200px;
+    line-height: 30px;
+    border-left: 2px solid #d1d0c5;
+}
+
+.text {
+    color: #d1d0c5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    inline-size: auto;
+    line-height: 30px;
+    border-left: 2px solid #d1d0c5;
+    border-right: 2px solid #d1d0c5
+}
+
+a:link {
+    color: rgb(96, 174, 247);
+}
+
+a:visited {
+    color:#e2b714;
+}
+
+a {
+    border: 2px groove #888887d5;
+    margin: 0px;
+    padding: 5px;
+}
+
+.linkBorder {
+    border: 0px;
+    margin: 2px;
+    font-style: italic;
+}
+
+.currentPage {
+    text-decoration: underline ;
+    color: #d1d0c5;
+    padding: 5px;
+    margin: 0px;
+    border: 2px groove #888887d5;
+}
+
+table {
+    border: 2px solid #e2b714;
+    margin: 50px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+.references {
+    
+    font-size: x-large;
+    
+}
+
+td {
+    border: 2px solid #e2b714;
+    color: #d1d0c5;
+}
+
+th {
+    border: 2px solid #e2b714;
+    color: #d1d0c5;
+}
+
+.return {
+    font-family: Arial, Helvetica, sans-serif;
+    visibility: visible ;
+    position: relative;
+    text-align: center;
+}
