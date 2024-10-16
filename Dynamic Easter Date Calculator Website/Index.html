@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>When is Easter?</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="icon" type="image/x-icon" href="images/easter_egg.png">
+
+    </head>
+
+    <body>
+        <h1>is it Easter Yet ?</h1>
+
+        <div class="form_box">
+            <form action="cgi-bin/easter_program.py" method="GET">
+                <label for="year">Enter a year:</label>
+                <input type="text" id="year" name="year"/>
+                <br/>
+                <input type="submit" value="Submit">
+                <br>
+                <br>
+                Format Type:
+                <br>
+        
+                <input type="radio" id="verbose" name="format" value="verbose" title="Example: 9th of April 2023"  checked>
+                <label for="verbose">Verbose</label>
+    
+                <input type="radio" id="numeric" name="format" value="numeric" title="Example: 09/04/2023">
+                <label for="numeric">Numeric</label>
+    
+                <input type="radio" id="both" name="format" value="both" title="Example: 9th of April 2023 | 09/04/2023">
+                <label for="both">Both</label>
+            </div>
+
+    
+    </body>
+
+</html>
